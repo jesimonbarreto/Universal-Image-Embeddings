@@ -26,8 +26,6 @@ from universal_embedding import knn_utils
 from universal_embedding import models
 
 
-
-
 def knn_evaluate(
   rng: jnp.ndarray,
   config: ml_collections.ConfigDict,
